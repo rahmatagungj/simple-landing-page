@@ -1,0 +1,111 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header2 {
+  background-color: #289672;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1.2em;
+  align-items: center;
+  -webkit-box-shadow: 0px 11px 17px 0px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 0px 11px 17px 0px rgba(163, 163, 163, 1);
+  box-shadow: 0px 11px 17px 0px rgba(163, 163, 163, 1);
+}
+
+.header2 ul {
+  display: flex;
+  list-style: none;
+}
+
+.header2 ul li {
+  margin: 0px 5px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  transform: scale(1.04);
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  margin: 15px 25px;
+}
+
+.jumbotron {
+  background-color: #206a5d;
+  color: white;
+  padding: 2em 70px;
+  font-size: 2em;
+}
+
+@media all and (max-width: 768px) {
+  .jumbotron {
+    padding: 2em 10px;
+  }
+}
+
+@media all and (max-width: 978px) {
+  .jumbotron {
+    font-size: 1.2em;
+  }
+}
+
+.jumbotron h2 {
+  font-size: 1.2em;
+}
+
+.jumbotron button {
+  margin-top: 5px;
+}
+
+.jumbotron button:hover {
+  background-color: #289672;
+}
+
+/* Projek */
+
+.projek {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrp;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #e9ecef;
+  padding: 20px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.card h3 {
+  font-size: 1.2em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 20px;
+  background-color: #151515;
+  text-align: center;
+  color: white;
+}
